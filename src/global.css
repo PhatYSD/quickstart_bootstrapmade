@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.heading-font {
+    font-family: "Nunito", sans-serif;
+}
+
+.default-font {
+    font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.nav-font {
+    font-family: "Inter", sans-serif;
+}
+
+.footer-line {
+    border-top: 1px solid color-mix(in srgb, #3d4348, transparent 90%);
+}
+
+.bg-footer {
+    background-color: color-mix(in srgb, #388da8, transparent 97%);
+}
+
+.border-footer-social {
+    border: 1px solid color-mix(in srgb, #3d4348, transparent 50%);
+}
+
+.border-email-sub {
+    outline: 1px solid color-mix(in srgb, #388da8, transparent 70%);
+}
+
+.text-footer-p {
+    color: color-mix(in srgb, #3d4348, transparent 30%);
+}
+
+.text-footer-p-60 {
+    color: color-mix(in srgb, #3d4348, transparent 60%);
+}
+
+.bg-pricing {
+    background-color: color-mix(in srgb, #388da8, transparent 96%);
+}
+
+.border-question {
+    @apply border;
+    border-color: color-mix(in srgb, #3d4348, transparent 85%);
+}
+
+.bg-dot-inactive {
+    background: color-mix(in srgb, #3d4348, transparent 85%);
+}
+
+.testimonial-card {
+    @apply bg-white rounded-lg shadow-md p-8;
+}
+
+.quote {
+    @apply text-gray-700 text-lg;
+}
